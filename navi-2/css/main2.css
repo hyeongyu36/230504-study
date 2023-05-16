@@ -1,0 +1,46 @@
+@charset "utf-8";
+* {
+  margin: 0;
+}
+section {
+  width: 800px;
+  margin: 30px auto;
+  background-color: beige;
+}
+h2 {
+  color: rgb(100, 65, 37);
+  font-size: 30px;
+}
+article {
+  width: 350px;
+  height: 200px;
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+}
+.house {
+  background-color: chartreuse;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  clear: left;
+}
+footer > p {
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+  line-height: 50px;
+}
+ul {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+}
+ul li {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  float: left;
+}

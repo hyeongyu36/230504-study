@@ -1,0 +1,48 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+    color:crimson;
+    font-size: 18px;
+    font-weight: 800;
+}
+h1{
+    width:400px;
+    margin:0 auto;
+    color: rgb(140, 167, 95);
+    background-color: darkolivegreen;
+    color:rgba(255,255,255);
+    text-align: center;
+    text-shadow:2px 2px 3px #000;
+}
+nav{
+    background-color: rgb(217, 255, 127);
+    width:800px;
+    box-shadow:2px 2px 3px #000;
+}
+ul{
+    list-style-image: url("../images/dot.png");
+    margin:0 auto;
+    
+}
+li{
+    text-align: center;
+    width:100px;
+    border:3px solid #222;
+    border-radius:10px;
+    padding:20px;
+    margin:10px;
+    display: inline-block;
+}
+p{
+    text-decoration: overline;
+}
+.trans1{
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+.trans2{
+    text-transform: uppercase;
+}
+.trans3{
+    text-transform: lowercase;
+}

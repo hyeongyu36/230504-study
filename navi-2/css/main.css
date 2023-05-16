@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+nav{
+    background-color: rgb(238, 255, 255);
+    width:900px;
+    height: 600px;
+    margin:0 auto;
+}
+h3{
+    padding:10px;
+    margin:0 auto;
+}
+ul{
+    list-style-image: url(../images/dot.png);
+    margin:0 auto;
+    display:inline-block;
+    padding:10px;
+}
+li{
+    background-color: rgba(255, 255, 255 0);
+    height: 250px;
+    width: 400px;
+    border:1px solid #000
+}
+.box1{
+    display: block;
+    float: left;
+    margin:5px;
+}
+.box2{
+    display: block;
+    float: left;
+    margin:5px;
+}
+.box3{
+    display: block;
+    float: left;
+    margin:5px;
+}
+.box4{
+    display: block;
+    float: left;
+    margin:5px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color:darkgrey;
+    height: 50px;
+    width:900px;
+    clear:left;
+    line-height:50px ;
+}
